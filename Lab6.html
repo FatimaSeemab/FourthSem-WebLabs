@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+
+
+
+<body>
+    <div class="centre">
+   <div class="overlap">
+      <form name="form1">
+    <input class="search" type="text" id="bar" value=0>
+     
+    <table >
+     <tr>
+        <td><input type="button" id="button1" value="MC" onclick ="MC()"></td>
+        <td><input type="button" id="button2" value="0" onclick ="form1.bar.value+=0"></td>
+        <td><input type="button" id="button3" value="1" onclick ="form1.bar.value+=1"></td>  
+        <td><input type="button" id="button4" value="2" onclick ="form1.bar.value+=2"></td>  
+        <td><input type="button" id="button5" value="+" onclick ="form1.bar.value+='+'"></td>   
+      </tr>
+     <tr>
+        <td><input type="button" id="button6" value="MS" onclick ="MS()"></td>
+        <td><input type="button" id="button7" value="3" onclick ="form1.bar.value+=3"></td>
+        <td><input type="button" id="button8" value="4" onclick ="form1.bar.value+=4"></td>  
+        <td><input type="button" id="button9" value="5" onclick ="form1.bar.value+=5"></td>  
+        <td><input type="button" id="button10" value="-" onclick ="form1.bar.value+='-'"></td>   
+     </tr>
+    <tr>
+        <td><input type="button" id="button11" value="MR" onclick ="MR()"></td>
+        <td><input type="button" id="button12" value="6" onclick ="form1.bar.value+=6"></td>
+        <td><input type="button" id="button13" value="7" onclick ="form1.bar.value+=7"></td>  
+        <td><input type="button" id="button14" value="8" onclick ="form1.bar.value+=8"></td>  
+        <td><input type="button" id="button15" value="X" onclick ="form1.bar.value+='x'"></td>   
+    </tr>
+     <tr>
+        <td><input type="button" id="button16" value="M+" onclick ="form1.bar.value+=0"></td>
+        <td><input type="button" id="button17" value="9" onclick ="form1.bar.value+=9"></td>
+        <td><input type="button" id="button18" value="+/-" onclick ="form1.bar.value+=1"></td>  
+        <td><input type="button" id="button19" value="=" onclick ="Calc()"></td>  
+        <td><input type="button" id="button20" value="/" onclick ="form1.bar.value+='/'"></td>   
+    </tr>
+        <tr>
+        <td><input type="button" id="button21" value="1/x" onclick ="Rec()"></td>
+        <td><input type="button" id="button22" value="."   onclick = "form1.bar.value+='.'"></td>
+        <td><input type="button" id="button23" value="x^2" onclick = "Power()"></td>  
+        <td><input type="button" id="button24" value="sqr" onclick = "sqr()"></td>  
+        <td><input type="button" id="button25" value="C"   onclick = "form1.bar.value='  '" ></td>   
+    </tr>
+    </table>
+  </form>
+</div>
+</div>
+<script src="index.js">
+</script>   
+  
+</body>
+</html>
